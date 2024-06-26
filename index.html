@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop de One Piece</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Loja de One Piece</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-shop me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#colecionaveis" class="nav-link">
+                            <i class="bi bi-trophy me-1"></i>
+                            Colecionáveis
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ofertas" class="nav-link">
+                            <i class="bi bi-gift me-1"></i>
+                            Ofertas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="produtos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img width="1980px" height="720px" src="./images/slides/9206713573_1360304d1d_b.jpg" alt="Mercadorias de One Piece">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img width="1920px" height="720px" src="./images/slides/maxresdefault.jpg" alt="Figuras colecionáveis de One Piece">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img width="1920px" height="720px" src="./images/slides/tokyo-one-piece-mugiwara-store-in-tokyo-150123.jpg" alt="Posters de One Piece">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/fachada/75673a61be4635eabfe893abfae7bf9b.jpg" class="d-block w-100 rounded" alt="Mercadorias de One Piece">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja de One Piece</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, id dolorum harum quo consequatur perferendis natus repudiandae optio ipsa voluptates enim ipsam corrupti labore iusto explicabo? Voluptas recusandae quas cumque.
+                            </p>
+                            <h3 class="section-title">Mercadorias <span class="text-colored">disponíveis</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium officiis numquam quos iure velit natus alias ut reprehenderit dolor! Eius autem molestias fugit quisquam ducimus explicabo aliquid provident asperiores?
+                            </p>
+                            <ul>
+                                <li>Figuras colecionáveis</li>
+                                <li>Posters exclusivos</li>
+                                <li>Roupas temáticas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="colecionaveis" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Colecionáveis <span class="text-colored">de One Piece</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img width="300px" height="360px" src="./images/e79e97357f4fb4bda037fff9d97ccec8.jfif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-trophy"></i>
+                            Figuras colecionáveis
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="300px" height="360px" src="./images/rBVaWFx7VbmAKJd2AAE7rYd6t0s658.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-trophy"></i>
+                            Posters exclusivos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="300px" height="360px" src="./images/onepiece-renner-destacada.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-trophy"></i>
+                            Roupas temáticas
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ofertas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Ofertas <span class="text-colored">especiais</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="figuras-tab" data-bs-toggle="tab" data-bs-target="#figuras" type="button" role="tab" aria-controls="figuras" aria-selected="true">Figuras colecionáveis</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="posters-tab" data-bs-toggle="tab" data-bs-target="#posters" type="button" role="tab" aria-controls="posters" aria-selected="false">Posters exclusivos</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="roupas-tab" data-bs-toggle="tab" data-bs-target="#roupas" type="button" role="tab" aria-controls="roupas" aria-selected="false">Roupas temáticas</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="figuras" role="tabpanel" aria-labelledby="figuras-tab">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/e79e97357f4fb4bda037fff9d97ccec8.jfif" class="card-img-top" alt="Figura 1">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Figura 1</h5>
+                                                <p class="card-text">Descrição da figura 1.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/e79e97357f4fb4bda037fff9d97ccec8.jfif" class="card-img-top" alt="Figura 2">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Figura 2</h5>
+                                                <p class="card-text">Descrição da figura 2.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/e79e97357f4fb4bda037fff9d97ccec8.jfif" class="card-img-top" alt="Figura 3">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Figura 3</h5>
+                                                <p class="card-text">Descrição da figura 3.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="posters" role="tabpanel" aria-labelledby="posters-tab">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/rBVaWFx7VbmAKJd2AAE7rYd6t0s658.jpg" class="card-img-top" alt="Poster 1">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Poster 1</h5>
+                                                <p class="card-text">Descrição do poster 1.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/rBVaWFx7VbmAKJd2AAE7rYd6t0s658.jpg" class="card-img-top" alt="Poster 2">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Poster 2</h5>
+                                                <p class="card-text">Descrição do poster 2.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/rBVaWFx7VbmAKJd2AAE7rYd6t0s658.jpg" class="card-img-top" alt="Poster 3">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Poster 3</h5>
+                                                <p class="card-text">Descrição do poster 3.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="roupas" role="tabpanel" aria-labelledby="roupas-tab">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/onepiece-renner-destacada.png" class="card-img-top" alt="Roupa 1">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Roupa 1</h5>
+                                                <p class="card-text">Descrição da roupa 1.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/onepiece-renner-destacada.png" class="card-img-top" alt="Roupa 2">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Roupa 2</h5>
+                                                <p class="card-text">Descrição da roupa 2.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card mb-4">
+                                            <img src="./images/onepiece-renner-destacada.png" class="card-img-top" alt="Roupa 3">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Roupa 3</h5>
+                                                <p class="card-text">Descrição da roupa 3.</p>
+                                                <a href="#" class="btn btn-primary">Comprar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card bg-light text-center p-3">
+                            <h3 class="section-title">Receba <span class="text-colored">ofertas exclusivas</span></h3>
+                            <p>
+                                Inscreva-se em nossa lista de e-mails para receber ofertas especiais e novidades sobre produtos de One Piece.
+                            </p>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="emailOfertas" class="form-label visually-hidden">Seu e-mail</label>
+                                    <input type="email" id="emailOfertas" class="form-control" placeholder="Digite seu e-mail" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Inscrever-se</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section id="fale-conosco" class="bg-dark text-white pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="section-title">Fale <span class="text-colored">conosco</span></h2>
+                        <p>
+                            Tem alguma dúvida sobre nossos produtos ou gostaria de mais informações sobre a loja de One Piece? Entre em contato conosco.
+                        </p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nomeFaleConosco" class="form-label visually-hidden">Seu nome</label>
+                                <input type="text" id="nomeFaleConosco" class="form-control" placeholder="Seu nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailFaleConosco" class="form-label visually-hidden">Seu e-mail</label>
+                                <input type="email" id="emailFaleConosco" class="form-control" placeholder="Seu e-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagemFaleConosco" class="form-label visually-hidden">Sua mensagem</label>
+                                <textarea id="mensagemFaleConosco" class="form-control" placeholder="Sua mensagem" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-light">Enviar mensagem</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-dark text-white p-3">
+                            <h3 class="section-title">Informações <span class="text-colored">de contato</span></h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    123 Rua da Liberdade, Grand Line
+                                </li>
+                                <li>
+                                    <i class="bi bi-telephone-fill"></i>
+                                    +55 11 1234-5678
+                                </li>
+                                <li>
+                                    <i class="bi bi-envelope-fill"></i>
+                                    contato@shoponepiece.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-dark text-white pt-4 pb-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Loja de One Piece. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
